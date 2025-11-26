@@ -1,16 +1,56 @@
-# React + Vite
+# 🧭 Pathfinding Visualizer (React.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **pathfinding visualizer** built with **React.js**, designed to help users understand how popular algorithms like **Dijkstra**, **A\***, **BFS**, and **DFS** explore and find the shortest path on a grid.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Interactive grid with draggable **start** and **end** nodes  
+- Add/remove **walls** by clicking or dragging  
+- Visualize algorithms:
+  - Dijkstra’s Algorithm  
+  - A\* Search  
+  - Breadth-First Search (BFS)  
+  - Depth-First Search (DFS)  
+- Smooth animations showing visited nodes and shortest paths  
+- Reset grid or clear paths instantly  
+- Responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+npm install
+npm start
+```
+
+---
+## 🎯 Usage
+
+1. Select an algorithm from the menu.
+2. Build your grid by placing walls.
+3. Press Visualize to run the algorithm.
+4. Watch the exploration and shortest path animate in real time!
+
+--- 
+## 🧩 Future Improvements
+
+- Additional algorithms
+- Maze generation tools
+- Weighted grids
+- Speed control
+- Dark mode
+
+---
+## 🤝 Contributing 
+
+Contributions are welcome!
+Feel free to open issues or submit pull requests.
+
+---
+## 📜 License
+This project is licensed under the **Apache-2.0 license**. See the [LICENSE](LICENSE) file for details.
